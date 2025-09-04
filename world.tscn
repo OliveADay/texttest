@@ -1,3 +1,12 @@
-[gd_scene format=3 uid="uid://cngov3agxwefe"]
+[gd_scene load_steps=2 format=3 uid="uid://cngov3agxwefe"]
+
+[ext_resource type="Theme" uid="uid://cn6qr5h53xel7" path="res://world.tres" id="1_f3sb7"]
 
 [node name="World" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+texture_filter = 1
+offset_right = 40.0
+offset_bottom = 23.0
+theme = ExtResource("1_f3sb7")
+text = "peepee"
